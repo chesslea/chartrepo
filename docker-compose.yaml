@@ -11,4 +11,4 @@ services:
       - DEBUG=1
       - STORAGE=local
       - STORAGE_LOCAL_ROOTDIR=/charts
-      - $(pwd)/charts:/charts
+      - ./charts:/charts
